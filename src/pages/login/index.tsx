@@ -58,6 +58,7 @@ export function Login() {
                         value={userName}
                         onChange={e => setUserName(e.target.value)} // Atualizando userName
                         maxLength={100}
+                        required
                     />
                 </div>
 
@@ -71,6 +72,7 @@ export function Login() {
                         value={password}
                         onChange={e => setPassword(e.target.value)} // Atualizando password
                         maxLength={100}
+                        required
                     />
                 </div>
 
