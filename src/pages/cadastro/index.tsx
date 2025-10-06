@@ -44,6 +44,7 @@ export function Cadastra() {
         }
 
         try {
+            // @ts-ignore
             const response = await api.post("/api/Auth/register", {
                 userName,
                 email,

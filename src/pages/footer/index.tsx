@@ -1,4 +1,3 @@
-import React from 'react';
 
 export function Footer() {
   // Define os links de navegação

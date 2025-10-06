@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios, { type AxiosInstance } from 'axios';
 
 // 1. Definição da Interface (Tipo) para o Produto

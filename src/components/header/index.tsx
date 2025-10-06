@@ -1,6 +1,6 @@
 import { useContext, useState, useEffect } from "react"
 import { Link, useNavigate, useLocation } from "react-router-dom"
-import { FiShoppingCart, FiUser } from "react-icons/fi"
+import { FiShoppingCart } from "react-icons/fi"
 import { CartContext } from "../context/CartContext"
 import { jwtDecode } from "jwt-decode"
 
