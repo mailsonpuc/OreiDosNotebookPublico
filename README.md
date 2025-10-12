@@ -15,46 +15,41 @@ backend
 ├── Context
 │   └── AppDbContext.cs
 ├── Controllers
-│   └── ProductsController.cs
-├── DTOS
-│   ├── Mappings
-│   │   └── ProductDTO.cs
-│   └── ProductDTOMappingExtensions.cs
+│   ├── AuthController.cs
+│   └── productsController.cs
+├── DTO
+│   ├── LoginModel.cs
+│   ├── RegisterModel.cs
+│   ├── Response.cs
+│   └── TokenModel.cs
 ├── Migrations
-│   ├── 20251009003610_Initial.Designer.cs
-│   ├── 20251009003610_Initial.cs
+│   ├── 20251003023821_Inicial.Designer.cs
+│   ├── 20251003023821_Inicial.cs
+│   ├── 20251006105649_MigracaoInicial.Designer.cs
+│   ├── 20251006105649_MigracaoInicial.cs
 │   └── AppDbContextModelSnapshot.cs
 ├── Models
 │   ├── ApplicationUser.cs
-│   └── Product.cs
+│   └── product.cs
 ├── Program.cs
 ├── Properties
 │   └── launchSettings.json
-├── Repositories
-│   ├── Interfaces
-│   │   ├── IProductRepository.cs
-│   │   ├── IRepository.cs
-│   │   └── IUnitOfWork.cs
-│   ├── ProductRepository.cs
-│   ├── Repository.cs
-│   └── UnitOfWork.cs
 ├── appsettings.Development.json
 ├── appsettings.json
+├── devShoopBack.csproj
+├── devShoopBack.http
 ├── package.sh
-├── petBack.csproj
-├── petBack.http
 ├── services
-│   ├── ITokenService.cs
+│   ├──  ITokenService.cs
 │   └── TokenService.cs
 └── wwwroot
     └── img
-        ├── (01.)__31027543400.jpg
-        ├── 111.jpg
-        ├── 31027547421-frente.jpg
-        ├── 8.webp
-        ├── Areia_Higiênica_Meau_Biodegradável_Grãos_Finos_para_Gatos.jpg
-        ├── Ração_Kitekat_Sachê_Peixe_para_Gatos_Adultos_1743117.jpg
-        └── racao.webp
+        ├── 51HvjwRCBJL._AC_SL1000_.jpg
+        ├── 51b60gPSCqL._AC_SL1000_.jpg
+        ├── 51d951scg-L._AC_SL1000_.jpg
+        ├── 71W6Nofdv0L._AC_SL1500_.jpg
+        └── 71uv+p19nTL._AC_SX679_.jpg
+
 </code>
 
 <hr>
