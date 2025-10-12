@@ -60,53 +60,55 @@ backend
 <hr>
 front
 <code>
-├── README.md
 ├── eslint.config.js
 ├── index.html
 ├── package.json
 ├── package.sh
 ├── public
-│   └── petshoop.jpg
+│   └── vite.svg
 ├── src
 │   ├── App.css
 │   ├── App.tsx
-│   ├── Routes.tsx
-│   ├── assets
-│   │   ├── PawPrintAnimation.gif
-│   │   └── petshoop.jpg
 │   ├── components
-│   │   ├── Context
+│   │   ├── PrivateRoute.tsx
+│   │   ├── context
 │   │   │   └── CartContext.tsx
-│   │   ├── Header
+│   │   ├── header
 │   │   │   └── index.tsx
-│   │   ├── Layout
+│   │   ├── layout
 │   │   │   └── index.tsx
-│   │   └── Loading
+│   │   └── loading
 │   │       ├── index.tsx
 │   │       └── loading.css
 │   ├── index.css
 │   ├── main.tsx
 │   ├── pages
-│   │   ├── Cat
+│   │   ├── cadastro
 │   │   │   └── index.tsx
-│   │   ├── Details
+│   │   ├── carrousel
 │   │   │   └── index.tsx
-│   │   ├── Footer
+│   │   ├── cart
 │   │   │   └── index.tsx
-│   │   ├── GetImageRelativePath
+│   │   ├── details
 │   │   │   └── index.tsx
-│   │   ├── Home
+│   │   ├── footer
 │   │   │   └── index.tsx
-│   │   └── Notfound
+│   │   ├── home
+│   │   │   └── index.tsx
+│   │   ├── login
+│   │   │   └── index.tsx
+│   │   └── notfound
 │   │       └── index.tsx
+│   ├── routes.tsx
 │   └── services
-│       └── Api.tsx
+│       └── api.tsx
 ├── tsconfig.app.json
 ├── tsconfig.json
 ├── tsconfig.node.json
 ├── vercel.json
 ├── vite.config.ts
 └── yarn.lock
+
 </code>
 
 
